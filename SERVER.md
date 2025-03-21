@@ -40,7 +40,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
 ```
 This ensures consistent error responses and proper error logging throughout the application. It's also easier to maintain since error handling logic is centralized.
 
-### 4. Database Structure
+### 4. Database Structure (IGNORE)
 For the database, I chose a structure that balances flexibility with data integrity:
 ```sql
 CREATE TABLE users (

@@ -67,7 +67,7 @@ Each service has clear responsibilities, making the code more maintainable and e
 
 ## Key Features and Their Implementation
 
-### Configurable Onboarding Flow
+### Configurable Onboarding Flow (IGNORE)
 The admin configuration system is built to be flexible yet safe:
 ```typescript
 private validateConfig(components: any[]) {
@@ -89,7 +89,7 @@ private formatMessage(message: any, meta?: any, context?: string): string {
 ```
 This provides detailed context for each operation while being extensible for future needs.
 
-## Future Enhancements
+## Future Enhancements (IGNORE for now)
 Given more time, 5 things I would add:
 1. Request tracing for better debugging
 2. Caching layer for frequently accessed configurations
